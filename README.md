@@ -10,7 +10,7 @@ After the modules have been installed,
 you can configure the project using these commands:
 
 ```
-python manage.py migrate
+python manage.py migrate --run-syncdb
 python manage.py createsuperuser
 ```
 
